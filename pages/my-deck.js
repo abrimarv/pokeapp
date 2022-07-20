@@ -19,7 +19,7 @@ export default function MyDeck() {
   }, []);
 
   return (
-    <Layout title={`My Deck`}>
+    <Layout title={`The D E C K`}>
       <p>Here is my deck as fetched from my server:</p>
       <span className={'error'}>{error}</span>
       <h3>{name}</h3>
